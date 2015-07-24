@@ -33,4 +33,45 @@ pre.center{
     width: 60%;
     border: #F2773F solid;
 }
+.teeth-top{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    float: left;
+    -webkit-shape-outside: polygon(0 0,50% 100%, 100% 0);
+    shape-outside: polygon(0 0,50% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0,50% 100%, 100% 0);
+    -webkit-shape-margin: 20px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.teeth-bot{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    float: left;
+    -webkit-shape-outside: polygon(0 100%,50% 0, 100% 100%);
+    shape-outside: polygon(0 100%,50% 0, 100% 100%);
+    -webkit-clip-path: polygon(0 100%,50% 0, 100% 100%);
+    -webkit-shape-margin: 20px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+#black{
+    background: #000;
+}
+#mian{
+    background: #E6D273;
+}
+#blue{
+    background: #015496;
+}
+#orange{
+    background: #F2773F;
+}
+#lblue{
+    background: #8CBFD2;
+}
+
+
 
